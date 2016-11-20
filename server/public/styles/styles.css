@@ -1,22 +1,37 @@
+* {
+  background: #ECF0F1;
+  text-align: center;
+}
+
 h1 {
-  font-family: 'Taviraj', serif;
-  color: indigo;
+  font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 h2 {
-  color: gray;
+  font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
-.book {
-  border: 1px solid magenta;
-  margin-bottom: 12px;
-  padding: 10px;
+input {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  background-color: inherit;
+  height: 60px;
+  width: 200px
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  height: 20%;
 }
 
 .incomplete {
-  background-color: magenta;
+  background-color: #E74C3C;
+  width: 100%;
+
 }
 
 .completed {
-  background-color: green;
+  background-color: #3498DB;
 }

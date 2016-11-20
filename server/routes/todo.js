@@ -4,7 +4,6 @@ var pg = require('pg');
 var connectionString = 'postgres://localhost:5432/sigma';
 
 
-
 router.get('/', function(req, res) {
 
   pg.connect(connectionString, function(err, client, done) {

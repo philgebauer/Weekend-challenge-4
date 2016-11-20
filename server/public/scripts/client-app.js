@@ -101,6 +101,7 @@ function completeTodo () {
 
 }
 
+
 function appendTodos(todos) {
   $("#todo-list").empty();
   $("#finished-list").empty();
