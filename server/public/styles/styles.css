@@ -1,0 +1,22 @@
+h1 {
+  font-family: 'Taviraj', serif;
+  color: indigo;
+}
+
+h2 {
+  color: gray;
+}
+
+.book {
+  border: 1px solid magenta;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+
+.incomplete {
+  background-color: magenta;
+}
+
+.completed {
+  background-color: green;
+}
